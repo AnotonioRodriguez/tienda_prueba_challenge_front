@@ -23,7 +23,6 @@ export default function VistaProducto({producto, open, setOpen}) {
     const classes = useStyles();
     const [ disable, setDisable] = useState(false);
     const [load, setLoad] = useState(false);
-    const [ total, setTotal] = useState(0);
 
     const Agregar = () => {
 		setContador(contador+1);

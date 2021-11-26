@@ -21,7 +21,7 @@ export default function Navegation() {
 
             <Box sx={{ flexGrow: 0 }}>
                 <Tooltip title="Mi carrito">
-                    <Badge badgeContent={datos.length} color="error">
+                    <Badge badgeContent={datos?.length} color="error">
                         <IconButton sx={{ p: 0 }} component={Link} to={`/carrito`}>
                             <AddShoppingCartIcon color="inherit" sx={{ width: 30, height: 30 }} />
                         </IconButton>

@@ -10,59 +10,59 @@
         },
         {
             "_id": "2",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "nombre": "Chicles",
+            "precio": 1,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://cdn.shopify.com/s/files/1/0089/3141/0020/products/CloretsCaja2_ce9ff8c5-8c40-40df-bd5c-b95c9a3fe2cd_1280x1280.jpg?v=1565642656"
         },
         {
             "_id": "3",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "nombre": "Mazapan",
+            "precio": 4,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2018/09/dulce-mexicano-mazapan-de-la-rosa-28g.jpg"
         },
         {
             "_id": "4",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "nombre": "Duvalin",
+            "precio": 4,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2019/08/duvalin-tri-sabor-15g.jpg"
         },
         {
-            "_id": "4",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "_id": "5",
+            "nombre": "Bocadin",
+            "precio": 2,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://cdn.shopify.com/s/files/1/0372/4450/2149/products/file_380x380.jpg?v=1590432488"
         },
         {
-            "_id": "4",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "_id": "6",
+            "nombre": "Paleta",
+            "precio": 3,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750106350139L.jpg"
         },
         {
-            "_id": "4",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "_id": "7",
+            "nombre": "Nugs",
+            "precio": 5,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://cdn.shopify.com/s/files/1/0089/3141/0020/products/NUGS2_1280x1280.jpg?v=1565642259"
         },
         {
-            "_id": "4",
-            "nombre": "Cacahuates",
-            "precio": 10,
+            "_id": "8",
+            "nombre": "Ranitas",
+            "precio": 5,
             "inventario": 10,
             "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
-            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+            "imagen": "https://www.movil.farmaciasguadalajara.com/wcsstore/FGCAS/wcs/products/871109_S_1280_F.jpg"
         }
     ]
 }
