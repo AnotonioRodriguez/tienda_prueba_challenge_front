@@ -1,13 +1,25 @@
-import { Button, Card, CardActions, CardContent, CardMedia,  Grid,  Typography } from '@mui/material'
-import React from 'react'
+import { Button, Card,  CardContent, CardMedia,  Dialog,  Grid, Slide, Typography } from '@mui/material'
+import React, { useState } from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Box } from '@mui/system';
+import VistaProducto from './VistaProducto';
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+	return <Slide direction="up" ref={ref} {...props} />;
+});
 
 export default function CardProducto({producto}) {
 
+    const [open, setOpen] = useState(false);
+    
+    const handleClick = () => setOpen(!open);
+
     return (
         <>
-           <Card sx={{ minWidth: 270 }}>
+            <Card
+                onClick={handleClick}
+                sx={{ minWidth: 270 }}
+            >
                 <CardMedia
                     component="img"
                     alt="Porducto dulce"
@@ -47,6 +59,17 @@ export default function CardProducto({producto}) {
                     </Box>
                 </Grid>
             </Card>
+
+            <Dialog
+                maxWidth='lg'
+				open={open} 
+				onClose={handleClick} 
+				TransitionComponent={Transition}
+            >
+                <Grid>
+                    <VistaProducto open={open} setOpen={setOpen} producto={producto} />
+                </Grid>
+            </Dialog>
         </>
     )
 }

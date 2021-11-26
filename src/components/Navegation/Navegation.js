@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 
 export default function Navegation() {
 
+    const datos = JSON.parse(localStorage.getItem('carritoUsuario'));
+
     return (
         <>
             <Box sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }} >
@@ -19,7 +21,7 @@ export default function Navegation() {
 
             <Box sx={{ flexGrow: 0 }}>
                 <Tooltip title="Mi carrito">
-                    <Badge badgeContent={4} color="error">
+                    <Badge badgeContent={datos.length} color="error">
                         <IconButton sx={{ p: 0 }} component={Link} to={`/carrito`}>
                             <AddShoppingCartIcon color="inherit" sx={{ width: 30, height: 30 }} />
                         </IconButton>
