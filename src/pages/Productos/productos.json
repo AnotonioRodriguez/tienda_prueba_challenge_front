@@ -1,0 +1,68 @@
+{
+    "productos":[
+        {
+            "_id": "1",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "inventario": 10,
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "2",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "3",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "4",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "4",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "4",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "4",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        },
+        {
+            "_id": "4",
+            "nombre": "Cacahuates",
+            "precio": 10,
+            "inventario": 10,
+            "descripcion": "Delicioso producto de la rosa, para endulzar tu paladar",
+            "imagen": "https://www.marialabonita.com/wp-content/uploads/2020/03/cvacahuate-japones-de-la-rosa-42g-800x800.jpg"
+        }
+    ]
+}

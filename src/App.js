@@ -8,7 +8,7 @@ function App() {
 		<div className="App">
 			<Helmet>
 				<meta charSet="utf-8" />
-				<title>Sorteos y Rifas de la Suerte</title>
+				<title>Dulces El Foraneo</title>
 			</Helmet>
 			<Router>
 				<Switch>{routes.map((route, index) => <RoutesWithSubRoutes key={index} {...route} />)}</Switch>
