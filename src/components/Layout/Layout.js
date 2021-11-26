@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Slide, AppBar, Toolbar, useScrollTrigger } from '@mui/material';
 import { Route, Switch } from 'react-router-dom';
 import Navegation from '../Navegation/Navegation';
+import Footer from '../Footer/Footer';
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -35,11 +36,11 @@ export default function Layout(props) {
               </AppBar>
             </HideOnScroll>
             <Toolbar />
-            <div>
+            <div style={{minHeight: '80vh'}}>
                 <LoadRoutes routes={routes} />
             </div>
-            <div >
-                
+            <div>
+                <Footer />
             </div>
         </React.Fragment>
     )
