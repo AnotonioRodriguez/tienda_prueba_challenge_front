@@ -16,7 +16,7 @@ const useStyles = makeStyles(() => ({
 
 export default function Carrito() {
     const classes = useStyles();
-    const datosCarrito = JSON.parse(localStorage.getItem('carritoUsuario'));
+    // const datosCarrito = JSON.parse(localStorage.getItem('carritoUsuario'));
 
     return (
         <>
@@ -30,15 +30,7 @@ export default function Carrito() {
                 </Grid>
                 <Grid item lg={6} xs={12}>
                     <Paper elevation={5}>
-                        {
-                            datosCarrito?.map((articulo) => {
-                                return(
-                                    <>
-                                        
-                                    </>
-                                );
-                            })
-                        }
+                       
                     </Paper>
                 </Grid>
                 <Grid item lg={5} xs={12}>
@@ -158,7 +150,7 @@ export default function Carrito() {
                                 variant="contained"
                                 color="success"
                                 size="large"
-                                onClick={localStorage.removeItem('carritoUsuario')}
+                                onClick={() => localStorage.removeItem('carritoUsuario')}
                                 component={Link} 
                                 to={`/finalizada`}
                             >
